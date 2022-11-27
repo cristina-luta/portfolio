@@ -35,7 +35,16 @@ public class ExperienceController {
         previousExperienceVersion.setPositionName(experience.getPositionName());
         previousExperienceVersion.setStartDate(experience.getStartDate());
         previousExperienceVersion.setEndDate(experience.getEndDate());
-        previousExperienceVersion.setTasks(experience.getTasks());
+        previousExperienceVersion.setTask_1(experience.getTask_1());
+        previousExperienceVersion.setTask_2(experience.getTask_2());
+        previousExperienceVersion.setTask_3(experience.getTask_3());
+        previousExperienceVersion.setTask_4(experience.getTask_4());
+        previousExperienceVersion.setTask_5(experience.getTask_5());
+        previousExperienceVersion.setTask_6(experience.getTask_6());
+        previousExperienceVersion.setTask_7(experience.getTask_7());
+        previousExperienceVersion.setTask_8(experience.getTask_8());
+        previousExperienceVersion.setTask_9(experience.getTask_9());
+        previousExperienceVersion.setTask_10(experience.getTask_10());
         return experienceRepository.save(previousExperienceVersion);
     }
 
